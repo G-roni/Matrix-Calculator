@@ -18,6 +18,18 @@ int* matrixMultiply(int rows1, int cols1, int rows2, int cols2, int arr1[][cols1
     return result;
 }
 
+int* gaussianElimination(int rows, int cols, int arr[][cols]) {
+    // Implement Gaussian elimination here
+}
+
+int* matrixInverse(int rows, int cols, int arr[][cols]) {
+    // Implement matrix inversion here
+}
+
+int* matrixTranspose(int rows, int cols, int arr[][cols]) {
+    // Implement matrix transposition here
+}
+
 int main(void) {
     int rows1, cols1, rows2, cols2;
 
